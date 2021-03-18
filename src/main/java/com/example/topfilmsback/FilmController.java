@@ -2,12 +2,10 @@ package com.example.topfilmsback;
 
 import com.example.topfilmsback.model.Film;
 import com.example.topfilmsback.service.FilmService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -16,6 +14,7 @@ import java.util.List;
 public class FilmController {
     private final FilmService filmService;
 
+    @Autowired
     public FilmController(FilmService filmService) {
         this.filmService = filmService;
     }
@@ -30,6 +29,24 @@ public class FilmController {
     public ResponseEntity<Film> getFilm(@PathVariable("id") Long id) {
         Film film = filmService.findFilmById(id);
         return new ResponseEntity<>(film, HttpStatus.OK);
+    }
+
+    @PostMapping()
+    public ResponseEntity<Film> addFilm(@RequestBody Film film) {
+        Film createdFilm = filmService.addFilm(film);
+        return new ResponseEntity<>(createdFilm, HttpStatus.CREATED);
+    }
+
+    @PutMapping
+    public ResponseEntity<Film> updateFilm(@RequestBody Film film) {
+        Film updatedFilm = filmService.updateFilm(film);
+        return new ResponseEntity<>(updatedFilm, HttpStatus.OK);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Film> deleteFilm(@PathVariable("id") Long id) {
+        filmService.deleteFilm(id);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 
 }

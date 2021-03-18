@@ -13,7 +13,6 @@ public class FilmService {
 
     private final FilmRepository filmRepository;
 
-    @Autowired
     public FilmService(FilmRepository filmRepository) {
         this.filmRepository = filmRepository;
     }
@@ -35,7 +34,7 @@ public class FilmService {
     }
 
     public void deleteFilm(Long id) {
-        filmRepository.deleteFilmById(id);
+        filmRepository.deleteById(id);
     }
 
 }

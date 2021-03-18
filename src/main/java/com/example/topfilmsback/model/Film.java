@@ -8,12 +8,20 @@ import java.time.LocalDate;
 public class Film implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(nullable = false, updatable = false)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", nullable = false, updatable = false)
     private Long id;
+
+    @Column(name = "titre")
     private String titre;
+
+    @Column(name = "date_sortie")
     private LocalDate dateSortie;
+
+    @Column(name = "realisateur")
     private String realisateur;
+
+    @Column(name = "duree")
     private Long duree;
 
     public Film() {
