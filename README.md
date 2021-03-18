@@ -2,8 +2,8 @@
 
 Back du projet Techno Web 1 - S4
 
-.  Axel MANCINI
-.  Martin RENARDET 
+.  Axel MANCINI  
+.  Martin RENARDET  
 .  Arthur ZHU  
 .  Simon ZOU  
 
