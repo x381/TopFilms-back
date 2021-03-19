@@ -33,11 +33,14 @@ public class Film implements Serializable {
     @Column(name = "duree")
     private Long duree;
 
+    @Column(name = "bande_annonce")
+    private String bandeAnnonce;
+
     public Film() {
 
     }
 
-    public Film(Long id, String titre, String imageUrl, String genre, String synopsis, LocalDate dateSortie, String realisateur, Long duree) {
+    public Film(Long id, String titre, String imageUrl, String genre, String synopsis, LocalDate dateSortie, String realisateur, Long duree, String bandeAnnonce) {
         this.id = id;
         this.imageUrl = imageUrl;
         this.titre = titre;
@@ -46,6 +49,7 @@ public class Film implements Serializable {
         this.dateSortie = dateSortie;
         this.realisateur = realisateur;
         this.duree = duree;
+        this.bandeAnnonce = bandeAnnonce;
     }
 
     public void setId(Long id) {
@@ -80,6 +84,10 @@ public class Film implements Serializable {
         this.duree = duree;
     }
 
+    public void setBandeAnnonce(String bandeAnnonce) {
+        this.bandeAnnonce = bandeAnnonce;
+    }
+
     public Long getId() {
         return id;
     }
@@ -110,5 +118,9 @@ public class Film implements Serializable {
 
     public Long getDuree() {
         return duree;
+    }
+
+    public String getBandeAnnonce() {
+        return bandeAnnonce;
     }
 }

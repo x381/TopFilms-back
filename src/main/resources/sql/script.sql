@@ -21,5 +21,6 @@ create table film
     date_sortie date,
     realisateur varchar(255),
     duree int,
+    bande_annonce varchar(255),
     primary key (id)
 );
