@@ -37,6 +37,12 @@ public class FilmController {
         return new ResponseEntity<>(createdFilm, HttpStatus.CREATED);
     }
 
+    @PostMapping("/generate")
+    public ResponseEntity<List<Film>> addFilms(@RequestBody List<Film> films) {
+        List<Film> createdFilms = filmService.addFilms(films);
+        return new ResponseEntity<>(createdFilms, HttpStatus.OK);
+    }
+
     @PutMapping
     public ResponseEntity<Film> updateFilm(@RequestBody Film film) {
         Film updatedFilm = filmService.updateFilm(film);

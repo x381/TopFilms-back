@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class FilmService {
@@ -27,6 +28,10 @@ public class FilmService {
 
     public Film addFilm(Film film) {
         return filmRepository.save(film);
+    }
+
+    public List<Film> addFilms(List<Film> films) {
+        return films.stream().map(x -> filmRepository.save(x)).collect(Collectors.toList());
     }
 
     public Film updateFilm(Film film) {

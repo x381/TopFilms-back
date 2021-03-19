@@ -10,5 +10,7 @@ create table film
     date_sortie date,
     realisateur varchar(255),
     duree int,
+    somme_notes int,
+    nbr_notes int,
     primary key (id)
 );
