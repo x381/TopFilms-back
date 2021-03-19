@@ -4,7 +4,7 @@ CREATE TABLE film
 (
     id serial,
     titre varchar(255),
-    imageUrl varchar(255),
+    image_url varchar(255),
     genre varchar(255),
     description varchar(255),
     date_sortie date,
