@@ -15,6 +15,15 @@ public class Film implements Serializable {
     @Column(name = "titre")
     private String titre;
 
+    @Column(name = "image_url")
+    private String imageUrl;
+
+    @Column(name = "genre")
+    private String genre;
+
+    @Column(name = "description")
+    private String description;
+
     @Column(name = "date_sortie")
     private LocalDate dateSortie;
 
@@ -28,9 +37,12 @@ public class Film implements Serializable {
 
     }
 
-    public Film(Long id, String titre, LocalDate dateSortie, String realisateur, Long duree) {
+    public Film(Long id, String titre, String imageUrl, String genre, String description, LocalDate dateSortie, String realisateur, Long duree) {
         this.id = id;
+        this.imageUrl = imageUrl;
         this.titre = titre;
+        this.genre = genre;
+        this.description = description;
         this.dateSortie = dateSortie;
         this.realisateur = realisateur;
         this.duree = duree;
@@ -42,6 +54,18 @@ public class Film implements Serializable {
 
     public void setTitre(String titre) {
         this.titre = titre;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public void setDateSortie(LocalDate dateSortie) {
@@ -62,6 +86,18 @@ public class Film implements Serializable {
 
     public String getTitre() {
         return titre;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public String getDescription() {
+        return description;
     }
 
     public LocalDate getDateSortie() {
