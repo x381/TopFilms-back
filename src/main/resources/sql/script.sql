@@ -1,12 +1,12 @@
 drop table if exists film CASCADE;
 
-CREATE TABLE film
+create table film
 (
     id serial,
     titre varchar(255),
     image_url varchar(255),
     genre varchar(255),
-    description varchar(255),
+    synopsis text,
     date_sortie date,
     realisateur varchar(255),
     duree int,

@@ -56,7 +56,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"titre\": \"test\",\r\n    \"imageUrl\": \"\",\r\n    \"genre\": \"comédie\",\r\n    \"description\": \"c'est drole\",\r\n    \"dateSortie\": \"2020-02-02\",\r\n    \"realisateur\": \"remy\",\r\n    \"duree\": 128\r\n}",
+							"raw": "{\r\n    \"titre\": \"Scooby-Doo et la légende du Roi Arthur\",\r\n    \"imageUrl\": \"https://www.themoviedb.org/t/p/original/4GoZaaZKwclJaimtZEslVNKflzU.jpg\",\r\n    \"genre\": \"Animation, Comédie, Familial, Mystère, Aventure\",\r\n    \"synopsis\": \"Retrouvez la bande de Scoob alors qu’ils sont maudits par le fantôme de Morgan Le Frey et renvoyés à l’époque du Roi Arthur, qui est sous le contrôle de la sorcière maléfique. Voulant se couper un morceau de fromage, Sammy tire involontairement Excalibur de sa pierre ce qui sème le doute sur qui est le souverain légitime ! Merlin, le sorcier légendaire, apparaît et déclare que le trône de Camelot doit se jouer au cours d’un duel ! Nos héros mettent alors tout en oeuvre pour tenter de remporter le tournoi, briser le sors sous lequel est le roi Arthur et retrouver le chemin du présent !\",\r\n    \"dateSortie\": \"2021-02-23\",\r\n    \"realisateur\": \"Maxwell Atoms\",\r\n    \"duree\": 72\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -82,7 +82,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"id\": 1,\r\n    \"titre\": \"test\",\r\n    \"imageUrl\": \"\",\r\n    \"genre\": \"comédie\",\r\n    \"description\": \"c'est drole\",\r\n    \"dateSortie\": \"2020-02-02\",\r\n    \"realisateur\": \"arthur\",\r\n    \"duree\": 128\r\n}",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"titre\": \"Scooby-Doo et la légende du Roi Arthur\",\r\n    \"imageUrl\": \"https://www.themoviedb.org/t/p/original/4GoZaaZKwclJaimtZEslVNKflzU.jpg\",\r\n    \"genre\": \"Animation, Comédie, Familial, Mystère, Aventure\",\r\n    \"synopsis\": \"Retrouvez la bande de Scoob alors qu’ils sont maudits par le fantôme de Morgan Le Frey et renvoyés à l’époque du Roi Arthur, qui est sous le contrôle de la sorcière maléfique. Voulant se couper un morceau de fromage, Sammy tire involontairement Excalibur de sa pierre ce qui sème le doute sur qui est le souverain légitime ! Merlin, le sorcier légendaire, apparaît et déclare que le trône de Camelot doit se jouer au cours d’un duel ! Nos héros mettent alors tout en oeuvre pour tenter de remporter le tournoi, briser le sors sous lequel est le roi Arthur et retrouver le chemin du présent !\",\r\n    \"dateSortie\": \"2021-02-23\",\r\n    \"realisateur\": \"Maxwell Atoms\",\r\n    \"duree\": 72\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
