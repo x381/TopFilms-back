@@ -1,4 +1,15 @@
 drop table if exists film CASCADE;
+drop table if exists account CASCADE;
+
+create table account
+(
+    id serial,
+    username varchar(32),
+    password varchar(255),
+    email varchar(255),
+    photo varchar(255),
+    primary key (id)
+);
 
 create table film
 (
@@ -10,7 +21,5 @@ create table film
     date_sortie date,
     realisateur varchar(255),
     duree int,
-    somme_notes int,
-    nbr_notes int,
     primary key (id)
 );
