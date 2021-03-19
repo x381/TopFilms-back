@@ -56,7 +56,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"titre\": \"test\",\r\n    \"dateSortie\": \"2020-02-02\",\r\n    \"realisateur\": \"remy\",\r\n    \"duree\": 128\r\n}",
+							"raw": "{\r\n    \"titre\": \"test\",\r\n    \"imageUrl\": \"\",\r\n    \"genre\": \"comédie\",\r\n    \"description\": \"c'est drole\",\r\n    \"dateSortie\": \"2020-02-02\",\r\n    \"realisateur\": \"remy\",\r\n    \"duree\": 128\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -82,7 +82,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"id\": 1,\r\n    \"titre\": \"test\",\r\n    \"dateSortie\": \"2020-02-02\",\r\n    \"realisateur\": \"arthur\",\r\n    \"duree\": 128\r\n}",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"titre\": \"test\",\r\n    \"imageUrl\": \"\",\r\n    \"genre\": \"comédie\",\r\n    \"description\": \"c'est drole\",\r\n    \"dateSortie\": \"2020-02-02\",\r\n    \"realisateur\": \"arthur\",\r\n    \"duree\": 128\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
