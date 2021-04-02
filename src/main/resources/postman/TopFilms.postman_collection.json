@@ -195,6 +195,30 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Get file path",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/files/:name",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"files",
+								":name"
+							],
+							"variable": [
+								{
+									"key": "name",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		}

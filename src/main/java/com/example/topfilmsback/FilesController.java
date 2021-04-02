@@ -1,6 +1,7 @@
 package com.example.topfilmsback;
 
 import java.io.IOException;
+import java.net.URI;
 import java.net.URL;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -59,9 +60,9 @@ public class FilesController {
 
     @GetMapping("/files/{filename:.+}")
     @ResponseBody
-    public ResponseEntity<URL> getFilePath(@PathVariable String filename) throws IOException {
+    public ResponseEntity<URI> getFilePath(@PathVariable String filename) throws IOException {
         Resource file = storageService.load(filename);
-        URL path = file.getURL();
+        URI path = file.getURI();
 //        return ResponseEntity.ok()
 //                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + file.getFilename() + "\"").body(file);
         return new ResponseEntity<>(path, HttpStatus.OK);
