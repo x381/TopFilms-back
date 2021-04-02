@@ -3,7 +3,6 @@ package com.example.topfilmsback.service;
 import com.example.topfilmsback.exception.FilmNotFoundException;
 import com.example.topfilmsback.model.Film;
 import com.example.topfilmsback.repo.FilmRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
