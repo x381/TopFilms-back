@@ -40,7 +40,7 @@ public class FilmController {
     @PostMapping("/generate")
     public ResponseEntity<List<Film>> addFilms(@RequestBody List<Film> films) {
         List<Film> createdFilms = filmService.addFilms(films);
-        return new ResponseEntity<>(createdFilms, HttpStatus.OK);
+        return new ResponseEntity<>(createdFilms, HttpStatus.CREATED);
     }
 
     @PatchMapping("/{id}")

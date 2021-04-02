@@ -56,7 +56,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"titre\": \"Scooby-Doo et la légende du Roi Arthur\",\r\n    \"imageUrl\": \"https://www.themoviedb.org/t/p/original/4GoZaaZKwclJaimtZEslVNKflzU.jpg\",\r\n    \"genre\": \"Animation, Comédie, Familial, Mystère, Aventure\",\r\n    \"synopsis\": \"Retrouvez la bande de Scoob alors qu’ils sont maudits par le fantôme de Morgan Le Frey et renvoyés à l’époque du Roi Arthur, qui est sous le contrôle de la sorcière maléfique. Voulant se couper un morceau de fromage, Sammy tire involontairement Excalibur de sa pierre ce qui sème le doute sur qui est le souverain légitime ! Merlin, le sorcier légendaire, apparaît et déclare que le trône de Camelot doit se jouer au cours d’un duel ! Nos héros mettent alors tout en oeuvre pour tenter de remporter le tournoi, briser le sors sous lequel est le roi Arthur et retrouver le chemin du présent !\",\r\n    \"dateSortie\": \"2021-02-23\",\r\n    \"realisateur\": \"Maxwell Atoms\",\r\n    \"duree\": 72,\r\n    \"bandeAnnonce\": \"https://www.youtube.com/watch?v=vwIR62tKISM\"\r\n}",
+							"raw": "{\r\n    \"titre\": \"Scooby-Doo et la légende du Roi Arthur\",\r\n    \"imageUrl\": \"https://www.themoviedb.org/t/p/original/4GoZaaZKwclJaimtZEslVNKflzU.jpg\",\r\n    \"genre\": \"Animation, Comédie, Familial, Mystère, Aventure\",\r\n    \"synopsis\": \"Retrouvez la bande de Scoob alors qu’ils sont maudits par le fantôme de Morgan Le Frey et renvoyés à l’époque du Roi Arthur, qui est sous le contrôle de la sorcière maléfique. Voulant se couper un morceau de fromage, Sammy tire involontairement Excalibur de sa pierre ce qui sème le doute sur qui est le souverain légitime ! Merlin, le sorcier légendaire, apparaît et déclare que le trône de Camelot doit se jouer au cours d’un duel ! Nos héros mettent alors tout en oeuvre pour tenter de remporter le tournoi, briser le sors sous lequel est le roi Arthur et retrouver le chemin du présent !\",\r\n    \"dateSortie\": \"2021-02-23\",\r\n    \"realisateur\": \"Maxwell Atoms\",\r\n    \"duree\": 72,\r\n    \"bandeAnnonce\": \"https://www.youtube.com/embed/vwIR62tKISM\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -82,7 +82,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "[\r\n    {\r\n        \"titre\": \"Scooby-Doo et la légende du Roi Arthur\",\r\n        \"imageUrl\": \"https://www.themoviedb.org/t/p/original/4GoZaaZKwclJaimtZEslVNKflzU.jpg\",\r\n        \"genre\": \"Animation, Comédie, Familial, Mystère, Aventure\",\r\n        \"synopsis\": \"Retrouvez la bande de Scoob alors qu’ils sont maudits par le fantôme de Morgan Le Frey et renvoyés à l’époque du Roi Arthur, qui est sous le contrôle de la sorcière maléfique. Voulant se couper un morceau de fromage, Sammy tire involontairement Excalibur de sa pierre ce qui sème le doute sur qui est le souverain légitime ! Merlin, le sorcier légendaire, apparaît et déclare que le trône de Camelot doit se jouer au cours d’un duel ! Nos héros mettent alors tout en oeuvre pour tenter de remporter le tournoi, briser le sors sous lequel est le roi Arthur et retrouver le chemin du présent !\",\r\n        \"dateSortie\": \"2021-02-23\",\r\n        \"realisateur\": \"Maxwell Atoms\",\r\n        \"duree\": 72,\r\n        \"bandeAnnonce\": \"https://www.youtube.com/watch?v=vwIR62tKISM\"\r\n    },\r\n    {\r\n    \"titre\": \"Tom & Jerry\",\r\n    \"imageUrl\": \"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iPUcRfdAp85OJAPmdCfpvyu3cjk.jpg\",\r\n    \"genre\": \"Action, Comédie, Familial, Animation\",\r\n    \"synopsis\": \"Tom, le chat et Jerry, la souris n'ont plus de domicile. Ils emménagent dans un hôtel chic de New York où Kayla a trouvé un emploi. Mais pour qu'elle puisse le garder, il faut impérativement qu'elle chasse Jerry avant la réception d'un mariage...\",\r\n    \"dateSortie\": \"2021-02-26\",\r\n    \"realisateur\": \"Tim Story\",\r\n    \"duree\": 101,\r\n    \"bandeAnnonce\": \"https://www.youtube.com/watch?v=WGtBtV7GkUA\"\r\n    },\r\n    {\r\n    \"titre\": \"Godzilla vs. Kong\",\r\n    \"imageUrl\": \"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4bTShLVFnVKK31cowgjdAIZV84T.jpg\",\r\n    \"genre\": \"Action, Science-Fiction\",\r\n    \"synopsis\": \"À une époque où les monstres parcourent la Terre, et alors que l’humanité lutte pour son avenir, Godzilla et King Kong, les deux forces les plus puissantes de la nature, entrent en collision dans une bataille spectaculaire inédite. Alors que Monarch se lance dans une mission périlleuse en terrain inconnu, et qu’il découvre des indices sur les origines des Titans, un complot humain menace d’éradiquer ces créatures – qu’elles soient bonnes ou mauvaises – de la surface de la planète.\",\r\n    \"dateSortie\": \"2021-03-24\",\r\n    \"realisateur\": \"Adam Wingard\",\r\n    \"duree\": 113,\r\n    \"bandeAnnonce\": \"https://www.youtube.com/watch?v=0534Kt-Obv0\"\r\n    },\r\n    {\r\n    \"titre\": \"Black Panther\",\r\n    \"imageUrl\": \"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/g94IcdzPswTYl1ISdgn2EwvaZtt.jpg\",\r\n    \"genre\": \"Action, Aventure, Science-Fiction\",\r\n    \"synopsis\": \"Après les événements qui se sont déroulés dans « Captain America : Civil War », T’Challa revient chez lui prendre sa place sur le trône du Wakanda, une nation africaine technologiquement très avancée. Mais lorsqu’un vieil ennemi resurgit, le courage de T’Challa est mis à rude épreuve, aussi bien en tant que souverain qu’en tant que Black Panther. Il se retrouve entraîné dans un conflit qui menace non seulement le destin du Wakanda, mais celui du monde entier…\",\r\n    \"dateSortie\": \"2018-02-14\",\r\n    \"realisateur\": \"Ryan Coogler\",\r\n    \"duree\": 134,\r\n    \"bandeAnnonce\": \"https://www.youtube.com/watch?v=AVKpkahfasI\"\r\n    }\r\n]\r\n",
+							"raw": "[\r\n    {\r\n        \"titre\": \"Scooby-Doo et la légende du Roi Arthur\",\r\n        \"imageUrl\": \"https://www.themoviedb.org/t/p/original/4GoZaaZKwclJaimtZEslVNKflzU.jpg\",\r\n        \"genre\": \"Animation, Comédie, Familial, Mystère, Aventure\",\r\n        \"synopsis\": \"Retrouvez la bande de Scoob alors qu’ils sont maudits par le fantôme de Morgan Le Frey et renvoyés à l’époque du Roi Arthur, qui est sous le contrôle de la sorcière maléfique. Voulant se couper un morceau de fromage, Sammy tire involontairement Excalibur de sa pierre ce qui sème le doute sur qui est le souverain légitime ! Merlin, le sorcier légendaire, apparaît et déclare que le trône de Camelot doit se jouer au cours d’un duel ! Nos héros mettent alors tout en oeuvre pour tenter de remporter le tournoi, briser le sors sous lequel est le roi Arthur et retrouver le chemin du présent !\",\r\n        \"dateSortie\": \"2021-02-23\",\r\n        \"realisateur\": \"Maxwell Atoms\",\r\n        \"duree\": 72,\r\n        \"bandeAnnonce\": \"https://www.youtube.com/embed/vwIR62tKISM\"\r\n    },\r\n    {\r\n    \"titre\": \"Tom & Jerry\",\r\n    \"imageUrl\": \"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iPUcRfdAp85OJAPmdCfpvyu3cjk.jpg\",\r\n    \"genre\": \"Action, Comédie, Familial, Animation\",\r\n    \"synopsis\": \"Tom, le chat et Jerry, la souris n'ont plus de domicile. Ils emménagent dans un hôtel chic de New York où Kayla a trouvé un emploi. Mais pour qu'elle puisse le garder, il faut impérativement qu'elle chasse Jerry avant la réception d'un mariage...\",\r\n    \"dateSortie\": \"2021-02-26\",\r\n    \"realisateur\": \"Tim Story\",\r\n    \"duree\": 101,\r\n    \"bandeAnnonce\": \"https://www.youtube.com/embed/WGtBtV7GkUA\"\r\n    },\r\n    {\r\n    \"titre\": \"Godzilla vs. Kong\",\r\n    \"imageUrl\": \"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4bTShLVFnVKK31cowgjdAIZV84T.jpg\",\r\n    \"genre\": \"Action, Science-Fiction\",\r\n    \"synopsis\": \"À une époque où les monstres parcourent la Terre, et alors que l’humanité lutte pour son avenir, Godzilla et King Kong, les deux forces les plus puissantes de la nature, entrent en collision dans une bataille spectaculaire inédite. Alors que Monarch se lance dans une mission périlleuse en terrain inconnu, et qu’il découvre des indices sur les origines des Titans, un complot humain menace d’éradiquer ces créatures – qu’elles soient bonnes ou mauvaises – de la surface de la planète.\",\r\n    \"dateSortie\": \"2021-03-24\",\r\n    \"realisateur\": \"Adam Wingard\",\r\n    \"duree\": 113,\r\n    \"bandeAnnonce\": \"https://www.youtube.com/embed/0534Kt-Obv0\"\r\n    },\r\n    {\r\n    \"titre\": \"Black Panther\",\r\n    \"imageUrl\": \"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/g94IcdzPswTYl1ISdgn2EwvaZtt.jpg\",\r\n    \"genre\": \"Action, Aventure, Science-Fiction\",\r\n    \"synopsis\": \"Après les événements qui se sont déroulés dans « Captain America : Civil War », T’Challa revient chez lui prendre sa place sur le trône du Wakanda, une nation africaine technologiquement très avancée. Mais lorsqu’un vieil ennemi resurgit, le courage de T’Challa est mis à rude épreuve, aussi bien en tant que souverain qu’en tant que Black Panther. Il se retrouve entraîné dans un conflit qui menace non seulement le destin du Wakanda, mais celui du monde entier…\",\r\n    \"dateSortie\": \"2018-02-14\",\r\n    \"realisateur\": \"Ryan Coogler\",\r\n    \"duree\": 134,\r\n    \"bandeAnnonce\": \"https://www.youtube.com/embed/AVKpkahfasI\"\r\n    }\r\n]\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -109,7 +109,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"titre\": \"Scooby-Doo et la légende du Roi Simon\",\r\n    \"imageUrl\": \"https://www.themoviedb.org/t/p/original/4GoZaaZKwclJaimtZEslVNKflzU.jpg\",\r\n    \"genre\": \"Animation, Comédie, Familial, Mystère, Aventure\",\r\n    \"synopsis\": \"Retrouvez la bande de Scoob alors qu’ils sont maudits par le fantôme de Morgan Le Frey et renvoyés à l’époque du Roi Arthur, qui est sous le contrôle de la sorcière maléfique. Voulant se couper un morceau de fromage, Sammy tire involontairement Excalibur de sa pierre ce qui sème le doute sur qui est le souverain légitime ! Merlin, le sorcier légendaire, apparaît et déclare que le trône de Camelot doit se jouer au cours d’un duel ! Nos héros mettent alors tout en oeuvre pour tenter de remporter le tournoi, briser le sors sous lequel est le roi Arthur et retrouver le chemin du présent !\",\r\n    \"dateSortie\": \"2021-02-23\",\r\n    \"realisateur\": \"Maxwell Atoms\",\r\n    \"duree\": 72,\r\n    \"bandeAnnonce\": \"\"\r\n}",
+							"raw": "{\r\n    \"titre\": \"Scooby-Doo et la légende du Roi Simon\",\r\n    \"imageUrl\": \"https://www.themoviedb.org/t/p/original/4GoZaaZKwclJaimtZEslVNKflzU.jpg\",\r\n    \"genre\": \"Animation, Comédie, Familial, Mystère, Aventure\",\r\n    \"synopsis\": \"Retrouvez la bande de Scoob alors qu’ils sont maudits par le fantôme de Morgan Le Frey et renvoyés à l’époque du Roi Arthur, qui est sous le contrôle de la sorcière maléfique. Voulant se couper un morceau de fromage, Sammy tire involontairement Excalibur de sa pierre ce qui sème le doute sur qui est le souverain légitime ! Merlin, le sorcier légendaire, apparaît et déclare que le trône de Camelot doit se jouer au cours d’un duel ! Nos héros mettent alors tout en oeuvre pour tenter de remporter le tournoi, briser le sors sous lequel est le roi Arthur et retrouver le chemin du présent !\",\r\n    \"dateSortie\": \"2021-02-23\",\r\n    \"realisateur\": \"Maxwell Atoms\",\r\n    \"duree\": 72,\r\n    \"bandeAnnonce\": \"https://www.youtube.com/embed/vwIR62tKISM\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -153,6 +153,43 @@
 								{
 									"key": "id",
 									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Upload file",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": []
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/upload",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"upload"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
 								}
 							]
 						}
