@@ -52,6 +52,36 @@ public class Film implements Serializable {
         this.bandeAnnonce = bandeAnnonce;
     }
 
+    public Film merge(Film film) {
+        String titre = this.titre;
+        String imageUrl = this.imageUrl;
+        String genre = this.genre;
+        String synopsis = this.synopsis;
+        LocalDate dateSortie = this.dateSortie;
+        String realisateur = this.realisateur;
+        Long duree = this.duree;
+        String bandeAnnonce = this.bandeAnnonce;
+
+        if(film.titre != null && !film.titre.isEmpty())
+            titre = film.titre;
+        if(film.imageUrl != null && !film.imageUrl.isEmpty())
+            imageUrl = film.imageUrl;
+        if(film.genre != null && !film.genre.isEmpty())
+            genre = film.genre;
+        if(film.synopsis != null && !film.synopsis.isEmpty())
+            synopsis = film.synopsis;
+        if(film.dateSortie != null && !film.dateSortie.toString().isEmpty())
+            dateSortie = film.dateSortie;
+        if(film.realisateur != null && !film.realisateur.isEmpty())
+            realisateur = film.realisateur;
+        if(film.duree != null)
+            duree = film.duree;
+        if(film.bandeAnnonce != null && !film.bandeAnnonce.isEmpty())
+            bandeAnnonce = film.bandeAnnonce;
+
+        return new Film(this.id, titre, imageUrl, genre, synopsis, dateSortie, realisateur, duree, bandeAnnonce);
+    }
+
     public void setId(Long id) {
         this.id = id;
     }

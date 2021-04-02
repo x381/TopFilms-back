@@ -34,8 +34,9 @@ public class FilmService {
         return films.stream().map(x -> filmRepository.save(x)).collect(Collectors.toList());
     }
 
-    public Film updateFilm(Film film) {
-        return filmRepository.save(film);
+    public Film updateFilm(Long id, Film film) {
+        Film updateFilm = findFilmById(id);
+        return filmRepository.save(updateFilm.merge(film));
     }
 
     public void deleteFilm(Long id) {
