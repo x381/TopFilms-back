@@ -197,24 +197,18 @@
 					"response": []
 				},
 				{
-					"name": "Get file path",
+					"name": "Get files",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/files/:name",
+							"raw": "{{base_url}}/files/",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"files",
-								":name"
-							],
-							"variable": [
-								{
-									"key": "name",
-									"value": ""
-								}
+								""
 							]
 						}
 					},

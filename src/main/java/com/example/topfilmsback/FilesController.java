@@ -60,12 +60,10 @@ public class FilesController {
 
     @GetMapping("/files/{filename:.+}")
     @ResponseBody
-    public ResponseEntity<URI> getFilePath(@PathVariable String filename) throws IOException {
+    public ResponseEntity<Resource> getFile(@PathVariable String filename) throws IOException {
         Resource file = storageService.load(filename);
-        URI path = file.getURI();
-//        return ResponseEntity.ok()
-//                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + file.getFilename() + "\"").body(file);
-        return new ResponseEntity<>(path, HttpStatus.OK);
+        return ResponseEntity.ok()
+                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + file.getFilename() + "\"").body(file);
     }
 
 }
