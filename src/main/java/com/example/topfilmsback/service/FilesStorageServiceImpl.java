@@ -10,7 +10,6 @@ import java.util.stream.Stream;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
 import org.springframework.stereotype.Service;
-import org.springframework.util.FileSystemUtils;
 import org.springframework.web.multipart.MultipartFile;
 
 @Service
@@ -21,7 +20,7 @@ public class FilesStorageServiceImpl implements FilesStorageService {
     @Override
     public void init() {
         try {
-            Files.createDirectory(root);
+            Files.createDirectories(root);
         } catch (IOException e) {
             throw new RuntimeException("Could not initialize folder for upload!");
         }
@@ -30,7 +29,8 @@ public class FilesStorageServiceImpl implements FilesStorageService {
     @Override
     public void save(MultipartFile file) {
         try {
-            Files.copy(file.getInputStream(), this.root.resolve(file.getOriginalFilename()));
+            if (!Files.exists(this.root.resolve(file.getOriginalFilename())))
+                Files.copy(file.getInputStream(), this.root.resolve(file.getOriginalFilename()));
         } catch (Exception e) {
             throw new RuntimeException("Could not store the file. Error: " + e.getMessage());
         }
@@ -50,11 +50,6 @@ public class FilesStorageServiceImpl implements FilesStorageService {
         } catch (MalformedURLException e) {
             throw new RuntimeException("Error: " + e.getMessage());
         }
-    }
-
-    @Override
-    public void deleteAll() {
-        FileSystemUtils.deleteRecursively(root.toFile());
     }
 
     @Override
